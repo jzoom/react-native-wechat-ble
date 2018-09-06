@@ -1,0 +1,408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getBluetoothDevices"
+			],
+			[
+				"BlueT",
+				"BluetoothModule"
+			],
+			[
+				"_fou",
+				"_foundDeviceInterval"
+			],
+			[
+				"found",
+				"foundDeviceListener"
+			],
+			[
+				"fou",
+				"FOUND_DEVICE"
+			],
+			[
+				"sta",
+				"startBluetoothDevicesDiscovery"
+			],
+			[
+				"openB",
+				"openBluetoothAdapter"
+			],
+			[
+				"Bluetoo",
+				"BluetoothModule"
+			],
+			[
+				"Ble",
+				"Bluetooth"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/reducers/ble.js",
+			"settings":
+			{
+				"buffer_size": 2474,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/components/Home.js",
+			"settings":
+			{
+				"buffer_size": 1482,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ble/Bluetooth.js",
+			"settings":
+			{
+				"buffer_size": 3405,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/modules/home.js",
+			"settings":
+			{
+				"buffer_size": 505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/components/BleConnection.js",
+			"settings":
+			{
+				"buffer_size": 1069,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"iNSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"removeP",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"InstallP",
+				"Package Control: Install Package"
+			],
+			[
+				"react",
+				"ReactIDE: Switch between component and stylesheet"
+			],
+			[
+				"Install P",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jzoom/SourceCode/es7test/src/app.js",
+		"/Users/jzoom/SourceCode/es7test/webpack.config.js",
+		"/Users/jzoom/SourceCode/navTest/App.js",
+		"/Users/jzoom/SourceCode/es7test/index.html",
+		"/Users/jzoom/SourceCode/GitHub/react-native-web-test/index.html",
+		"/Users/jzoom/SourceCode/GitHub/react-native-web-test/package.json",
+		"/Users/jzoom/SourceCode/es7test/package.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"devices"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/reducers/ble.js",
+					"settings":
+					{
+						"buffer_size": 2474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1949,
+								1949
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1228.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/components/Home.js",
+					"settings":
+					{
+						"buffer_size": 1482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								532,
+								532
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 507.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ble/Bluetooth.js",
+					"settings":
+					{
+						"buffer_size": 3405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1511,
+								1531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1058.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/modules/home.js",
+					"settings":
+					{
+						"buffer_size": 505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/components/BleConnection.js",
+					"settings":
+					{
+						"buffer_size": 1069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								679,
+								679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,17 @@
+<!--
+  ~ /**
+  ~  * Copyright (c) $year-present, JZoom, Inc.
+  ~  * All rights reserved.
+  ~  *
+  ~  * This source code is licensed under the Apache-2.0 license found in the
+  ~  * LICENSE page
+  ~  * http://www.apache.org/licenses/LICENSE-2.0
+  ~  *
+  ~  *
+  ~  */
+  ~
+  -->
+
+<resources>
+    <string name="app_name">RNBle</string>
+</resources>
