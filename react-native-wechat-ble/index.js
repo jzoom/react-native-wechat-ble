@@ -22,6 +22,8 @@ rn事件：_evtXxx
 
 */
 
+
+
 const BluetoothModule = NativeModules.BluetoothModule;
 
 
@@ -31,7 +33,7 @@ const BluetoothEvent = new NativeEventEmitter(BluetoothModule);
 class Bluetooth{
 
 
-	openBluetoothAdapter(params){
+	openBluetoothAdapter(params:{}){
 		return BluetoothModule.openBluetoothAdapter(params || {});
 	}
 
@@ -41,18 +43,18 @@ class Bluetooth{
 	}
 
 	
-	onBluetoothDeviceFound(params){
+	onBluetoothDeviceFound(callback:Function){
 		if(this._evtFoundDevice){
 			this._evtFoundDevice.remove();
 		}
 		
-		this._cbFoundDevice = params.success;
+		this._cbFoundDevice = callback;
 		this._evtFoundDevice = BluetoothEvent.addListener('foundDevice',this._onFoundDevice);
 	}
 
 
 
-	startBluetoothDevicesDiscovery(params){
+	startBluetoothDevicesDiscovery(params:{}){
 		params = params || {};
 		this.newFoundDevices = {};
 		if(params.interval!==undefined && params.interval > 0){
@@ -61,11 +63,11 @@ class Bluetooth{
 		return BluetoothModule.startBluetoothDevicesDiscovery(params);
 	}
 
-	stopBluetoothDevicesDiscovery(params){
+	stopBluetoothDevicesDiscovery(params:{}){
 		return BluetoothModule.stopBluetoothDevicesDiscovery(params || {});
 	}
 
-	createBLEConnection(params){
+	createBLEConnection(params:{deviceId:string}){
 		return BluetoothModule.createBLEConnection(params || {});
 	}
 
@@ -81,7 +83,7 @@ class Bluetooth{
 		return BluetoothModule.getConnectedBluetoothDevices({});
 	}
 
-	getBLEDeviceServices(params){
+	getBLEDeviceServices(params:{deviceId:string}){
 		return BluetoothModule.getBLEDeviceServices(params);
 	}
 
@@ -117,12 +119,12 @@ class Bluetooth{
 	}
 
 	
-	onBLECharacteristicValueChange(params){
+	onBLECharacteristicValueChange(callback){
 		if(this._evtValueUpdate){
 			this._evtValueUpdate.remove();
 		}
 		
-		this._cbValueUpdate = params.success;
+		this._cbValueUpdate = callback;
 		this._evtFoundDevice = BluetoothEvent.addListener('valueUpdate',this._onValueUpdate);
 	}
 
@@ -183,5 +185,5 @@ class Bluetooth{
 
 
 const instance = new Bluetooth();
-module.exports = instance;
+export default instance;
 
